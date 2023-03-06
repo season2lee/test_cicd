@@ -9,7 +9,7 @@ function User() {
   const [user, setUser] = useState();
   const handleLogin = () => {};
   const handleLogout = () => {
-    setUser(null);
+    setUser();
   };
   return (
     <div>
